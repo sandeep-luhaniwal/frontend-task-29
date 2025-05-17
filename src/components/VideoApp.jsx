@@ -9,7 +9,7 @@ const VideoApp = () => {
   const handleStream = (e) => {
     e.preventDefault();
     if (!filename) return;
-    setVideoUrl(`http://localhost:5000/video/${filename}`);
+    setVideoUrl(`https://backend-task-29.onrender.com/video/${filename}`);
   };
 
   return (
