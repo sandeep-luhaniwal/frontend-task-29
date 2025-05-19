@@ -1,5 +1,3 @@
-"use client";
-import React from 'react';
 import { useState } from 'react';
 
 const VideoApp = () => {
@@ -26,7 +24,7 @@ const VideoApp = () => {
         />
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
+          className="px-4 py-2 cursor-pointer bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
         >
           Stream Video
         </button>
